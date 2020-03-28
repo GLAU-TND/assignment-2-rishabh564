@@ -38,6 +38,15 @@ public class Methods {
         this.m = m;
     }
 
+    public void verify_A(TreeNode root) {
+
+        preOrder(root);
+        System.out.println("First element of pre Order traversal : " + pre.getFront().getNode().getData());
+        postOrder(root);
+        System.out.println("Last Element of post order traversal : " + post.getEnd().getNode().getData());
+
+    }
+
 
 
 
