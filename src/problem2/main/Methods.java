@@ -22,6 +22,9 @@ public class Methods {
         this.pre = pre;
     }
 
+    public MyQueue getPost() {
+        return post;
+    }
 
 
 
