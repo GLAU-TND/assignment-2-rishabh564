@@ -34,6 +34,9 @@ public class Methods {
         return m;
     }
 
+    public void setM(MyBinarySearchTree m) {
+        this.m = m;
+    }
 
 
 
