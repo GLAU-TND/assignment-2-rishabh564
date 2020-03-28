@@ -10,8 +10,8 @@ import problem4.myqueue.Node;
 public class MyBinarySearchTree {
 
 
-    private static int count;
     private TreeNode newnode, root, tmp;
+    private static int count;
     private MyQueue pre;
     private MyQueue post;
 
@@ -151,3 +151,10 @@ public class MyBinarySearchTree {
             return;
         }
 
+        postOrder(node.getLeft());
+        postOrder(node.getRight());
+
+
+    }
+
+}
