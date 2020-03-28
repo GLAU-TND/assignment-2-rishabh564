@@ -1,5 +1,6 @@
 package problem2.main;
 
+import org.w3c.dom.Node;
 import problem1.mybst.MyBinarySearchTree;
 
 
@@ -91,6 +92,16 @@ public class Methods {
 
     }
 
+    //preorder
+    public void preOrder(TreeNode node) {
+        if (node == null) {
+            return;
+        }
+
+        pre.enqueue(new Node(node));
+        preOrder(node.getLeft());
+        preOrder(node.getRight());
+    }
 
 
 
