@@ -5,3 +5,11 @@ import problem1.mybst.MyBinarySearchTree;
 
 public class Methods {
     private MyBinarySearchTree m;
+    private MyQueue pre, post;
+
+    //constructor
+    public Methods() {
+        m = new MyBinarySearchTree();
+        pre = new MyQueue();
+        post = new MyQueue();
+    }
