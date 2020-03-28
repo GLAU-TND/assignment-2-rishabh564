@@ -104,6 +104,16 @@ public class Methods {
 
     }
 
+    //postorder
+    public void postOrder(TreeNode node) {
+        if (node == null) {
+            return;
+        }
+
+        postOrder(node.getLeft());
+        postOrder(node.getRight());
+        post.enqueue(new Node(node));
+
 
 
 
