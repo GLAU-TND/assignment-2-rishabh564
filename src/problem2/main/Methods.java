@@ -76,6 +76,24 @@ public class Methods {
                 ctr++;
             }
 
+            try {
+                assert post.getTmp() != null;
+                postdata = post.getTmp().getNode().getData();
+            } catch (NullPointerException ignore) {
+            }
+            System.out.println(predata + "pre data");
+            System.out.println(postdata + "post data");
+            return predata == postdata;
+        } else {
+            System.out.println("Number of elements in tree are even");
+            return false;
+        }
+
+    }
+
+
+
+
 
 
 
