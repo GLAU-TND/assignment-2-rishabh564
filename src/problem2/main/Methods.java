@@ -47,6 +47,16 @@ public class Methods {
 
     }
 
+    //verification of statement "Both the traversal will give same element at the mid position for odd number of nodes."
+    public boolean verify_B(TreeNode root) {
+
+        pre.queuePrint(pre);
+        post.queuePrint(post);
+        int size = pre.getSize(pre);
+
+        int ctr = 0;
+        int predata = 0;
+        int postdata = 0;
 
 
 
