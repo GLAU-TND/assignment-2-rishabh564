@@ -11,8 +11,8 @@ public class TreeNode {
         this.left = left;
         this.right = right;
         this.data = data;
-    }
 
+    }
     //default constructor
     public TreeNode() {
         System.out.print("Enter integer value : ");
@@ -20,7 +20,6 @@ public class TreeNode {
         left = right = null;
 
     }
-
     public TreeNode getLeft() {
         return left;
     }
@@ -45,16 +44,3 @@ public class TreeNode {
         this.data = data;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
