@@ -133,7 +133,6 @@ public class MyBinarySearchTree {
         countNotLeft(node.getRight());
 
     }
-
     //preorder
     public void preOrder(TreeNode node) {
         if (node == null) {
