@@ -59,6 +59,24 @@ public class Methods {
         int postdata = 0;
 
 
+        if (size % 2 == 1) {
+            //last element of this while loop is middle element of pre-order traversal queue
+            while (ctr < size / 2 && pre.getTmp() != null) {
+                pre.setTmp(pre.getTmp().getNext());
+                ctr++;
+            }
+            ctr = 0;
+            try {
+                assert pre.getTmp() != null;
+                predata = pre.getTmp().getNode().getData();
+            } catch (NullPointerException ignore) {
+            }
+            while (ctr < size / 2 && post.getTmp() != null) {
+                post.setTmp(post.getTmp().getNext());
+                ctr++;
+            }
+
+
 
 
 
