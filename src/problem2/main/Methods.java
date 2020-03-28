@@ -26,6 +26,9 @@ public class Methods {
         return post;
     }
 
+    public void setPost(MyQueue post) {
+        this.post = post;
+    }
 
 
 
