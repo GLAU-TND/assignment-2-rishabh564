@@ -18,6 +18,11 @@ public class Methods {
         return pre;
     }
 
+    public void setPre(MyQueue pre) {
+        this.pre = pre;
+    }
+
+
 
 
 
