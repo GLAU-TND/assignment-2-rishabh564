@@ -1,8 +1,9 @@
 package problem2.main;
 
-import org.w3c.dom.Node;
 import problem1.mybst.MyBinarySearchTree;
-
+import problem1.node.TreeNode;
+import problem4.myqueue.MyQueue;
+import problem4.myqueue.Node;
 
 public class Methods {
     private MyBinarySearchTree m;
@@ -113,6 +114,8 @@ public class Methods {
         postOrder(node.getLeft());
         postOrder(node.getRight());
         post.enqueue(new Node(node));
+    }
+}
 
 
 
