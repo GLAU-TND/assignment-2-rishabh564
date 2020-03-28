@@ -101,6 +101,7 @@ public class Methods {
         pre.enqueue(new Node(node));
         preOrder(node.getLeft());
         preOrder(node.getRight());
+
     }
 
 
