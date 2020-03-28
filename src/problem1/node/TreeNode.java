@@ -1,5 +1,7 @@
 package problem1.node;
 
+import java.util.Scanner;
+
 public class TreeNode {
     private TreeNode left;
     private TreeNode right;
@@ -11,3 +13,10 @@ public class TreeNode {
         this.data = data;
     }
 
+    //default constructor
+    public TreeNode() {
+        System.out.print("Enter integer value : ");
+        data = new Scanner(System.in).nextInt();
+        left = right = null;
+
+    }
