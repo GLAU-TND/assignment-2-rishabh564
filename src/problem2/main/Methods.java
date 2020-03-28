@@ -13,3 +13,22 @@ public class Methods {
         pre = new MyQueue();
         post = new MyQueue();
     }
+
+    public MyQueue getPre() {
+        return pre;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
