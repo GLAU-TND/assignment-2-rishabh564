@@ -30,6 +30,11 @@ public class Methods {
         this.post = post;
     }
 
+    public MyBinarySearchTree getM() {
+        return m;
+    }
+
+
 
 
 
