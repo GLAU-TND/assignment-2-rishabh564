@@ -45,6 +45,10 @@ public class Student {
         this.rollno = rollno;
     }
 
+    public int getBacklog() {
+        return backlog;
+    }
+
 
 
 
