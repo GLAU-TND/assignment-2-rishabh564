@@ -11,3 +11,7 @@ public class MyCircularQueue {
         tmp = null;
         end = null;
     }
+
+    public Node getFront() {
+        return front;
+    }
