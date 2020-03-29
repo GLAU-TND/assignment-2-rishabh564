@@ -39,7 +39,8 @@ public class MyPriorityQueue {
         }
         while (front != null);
 
-
+    }
+}
 
 
 
