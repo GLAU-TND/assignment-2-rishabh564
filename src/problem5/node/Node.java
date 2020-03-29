@@ -7,6 +7,10 @@ public class Node {
     private Student s;
     private Node next;
 
+    public Node(Student s) {
+        this.s = s;
+        next = null;
+    }
 
     public Student getS() {
         return s;
