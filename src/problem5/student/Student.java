@@ -57,6 +57,11 @@ public class Student {
         return apperingcount;
     }
 
+    public void setApperingcount(int apperingcount) {
+        this.apperingcount = apperingcount;
+    }
+
+}
 
 
 
