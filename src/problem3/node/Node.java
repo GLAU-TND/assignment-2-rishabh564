@@ -20,3 +20,8 @@ public class Node {
     public void setS(Student s) {
         this.s = s;
     }
+
+    public Node getNext() {
+        return next;
+    }
+
