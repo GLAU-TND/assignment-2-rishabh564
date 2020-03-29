@@ -31,6 +31,9 @@ public class MyQueue {
         return front;
     }
 
+    public void setFront(Node front) {
+        this.front = front;
+    }
 
 
 
