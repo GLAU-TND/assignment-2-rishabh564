@@ -8,6 +8,10 @@ public class Node {
     private Student s;
     private Node next;
 
+    public Node() {
+        s = new Student();
+        next = null;
+    }
 
     public Student getS() {
         return s;
