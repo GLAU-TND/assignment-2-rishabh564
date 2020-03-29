@@ -19,3 +19,63 @@ public class MyCircularQueue {
     public void setFront(Node front) {
         this.front = front;
     }
+
+    public Node getTmp() {
+        return tmp;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
