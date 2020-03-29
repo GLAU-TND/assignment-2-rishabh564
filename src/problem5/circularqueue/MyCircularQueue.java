@@ -3,6 +3,7 @@ package problem5.circularqueue;
 import problem5.node.Node;
 
 
+
 public class MyCircularQueue {
     private Node front, tmp, end;
 
@@ -11,6 +12,7 @@ public class MyCircularQueue {
         tmp = null;
         end = null;
     }
+
 
     public Node getFront() {
         return front;
@@ -56,6 +58,7 @@ public class MyCircularQueue {
         }
     }
 
+
     public void remove(String name) {
         tmp = front;
         if (tmp.getS().getName().equals(name) && tmp.getS().getBacklog() == 0) {
@@ -86,75 +89,3 @@ public class MyCircularQueue {
         System.out.println(tmp.getS().getBacklog() - tmp.getS().getApperingcount());
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
