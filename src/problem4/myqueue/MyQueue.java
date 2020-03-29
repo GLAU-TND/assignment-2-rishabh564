@@ -39,6 +39,9 @@ public class MyQueue {
         return end;
     }
 
+    public void setEnd(Node end) {
+        this.end = end;
+    }
 
 
 
