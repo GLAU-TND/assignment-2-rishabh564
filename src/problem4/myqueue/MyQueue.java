@@ -35,6 +35,14 @@ public class MyQueue {
         this.front = front;
     }
 
+    public Node getEnd() {
+        return end;
+    }
+
+
+
+
+
 
 
 
