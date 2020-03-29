@@ -47,6 +47,10 @@ public class MyQueue {
         return tmp;
     }
 
+    public void setTmp(Node tmp) {
+        this.tmp = tmp;
+    }
+
 
 
 
