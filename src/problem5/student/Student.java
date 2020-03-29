@@ -20,8 +20,9 @@ public class Student {
         this.apperingcount = sc.nextInt();
     }
 
-
-
+    public String getName() {
+        return name;
+    }
 
 
 
