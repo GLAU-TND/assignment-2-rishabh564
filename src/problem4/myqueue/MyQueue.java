@@ -75,7 +75,16 @@ public class MyQueue {
         }
     }
 
+    //preorder
+    public void preOrder(TreeNode node) {
+        if (node == null) {
+            return;
+        }
 
+        enqueue(new Node(node));
+        preOrder(node.getLeft());
+        preOrder(node.getRight());
+    }
 
 
 
