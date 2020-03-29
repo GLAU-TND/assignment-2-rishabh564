@@ -25,3 +25,7 @@ public class MyMain {
         //method to print preorder Successor of given Node
         q.preOrder(m.getRoot());
         q.queuePrint(q);
+        System.out.print("Enter value of which you want to find preorder Successor : ");
+        q.printSuccessor(sc.nextInt());
+    }
+}
