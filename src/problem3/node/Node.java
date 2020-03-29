@@ -12,3 +12,7 @@ public class Node {
     public Student getS() {
         return s;
     }
+
+    public void setS(Student s) {
+        this.s = s;
+    }
