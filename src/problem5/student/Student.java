@@ -18,6 +18,17 @@ public class Student {
         this.backlog = sc.nextInt();
         System.out.print("appering_count");
         this.apperingcount = sc.nextInt();
+
+
+    }
+
+    @Override
+    public String toString() {
+        return "name='" + name + '\'' +
+                ", rollno=" + rollno +
+                ", backlog=" + backlog +
+                ", apperingcount=" + apperingcount
+                ;
     }
 
     public String getName() {
@@ -32,14 +43,6 @@ public class Student {
         return rollno;
     }
 
-    @Override
-    public String toString() {
-        return "name='" + name + '\'' +
-                ", rollno=" + rollno +
-                ", backlog=" + backlog +
-                ", apperingcount=" + apperingcount
-                ;
-    }
 
     public void setRollno(int rollno) {
         this.rollno = rollno;
@@ -62,58 +65,3 @@ public class Student {
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
