@@ -27,6 +27,9 @@ public class MyQueue {
         this.size = size;
     }
 
+    public Node getFront() {
+        return front;
+    }
 
 
 
