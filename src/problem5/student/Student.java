@@ -28,6 +28,9 @@ public class Student {
         this.name = name;
     }
 
+    public int getRollno() {
+        return rollno;
+    }
 
 
 
