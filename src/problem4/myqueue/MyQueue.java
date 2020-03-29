@@ -43,7 +43,9 @@ public class MyQueue {
         this.end = end;
     }
 
-
+    public Node getTmp() {
+        return tmp;
+    }
 
 
 
