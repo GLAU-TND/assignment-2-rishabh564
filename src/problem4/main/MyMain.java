@@ -21,3 +21,7 @@ public class MyMain {
         for (int i = 0; i < 5; i++) {
             m.insert(m.getRoot());
         }
+
+        //method to print preorder Successor of given Node
+        q.preOrder(m.getRoot());
+        q.queuePrint(q);
