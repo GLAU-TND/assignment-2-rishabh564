@@ -53,6 +53,46 @@ public class Student {
         this.backlog = backlog;
     }
 
+    public int getApperingcount() {
+        return apperingcount;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
