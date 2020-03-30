@@ -38,30 +38,8 @@ public class MyPriorityQueue {
             front = front.getNext();
         }
         while (front != null);
-
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

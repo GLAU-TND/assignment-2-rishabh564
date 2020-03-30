@@ -27,6 +27,5 @@ public class MyMain {
         q.queuePrint(q);
         System.out.print("Enter value of which you want to find preorder Successor : ");
         q.printSuccessor(sc.nextInt());
-
     }
 }

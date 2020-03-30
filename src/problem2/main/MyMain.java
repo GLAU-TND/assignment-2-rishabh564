@@ -22,7 +22,6 @@ public class MyMain {
         // Verification of statement "root element occours first in pre-order and last in post-order  "
 
         mthds.verify_A(m.getRoot());
-
         System.out.println(mthds.verify_B(m.getRoot()));
     }
 }

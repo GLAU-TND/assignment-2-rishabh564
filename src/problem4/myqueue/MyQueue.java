@@ -8,7 +8,6 @@ public class MyQueue {
     private Node front, end, tmp;
     private int size;
 
-
     public MyQueue() {
         front = null;
         end = null;
@@ -104,9 +103,7 @@ public class MyQueue {
         } catch (NullPointerException ignore) {
             System.out.println("No preorder Successor found");
         }
-
     }
-
 }
 
 

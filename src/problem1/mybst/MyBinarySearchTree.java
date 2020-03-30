@@ -23,7 +23,7 @@ public class MyBinarySearchTree {
         pre = new MyQueue();
     }
 
-    //seeting root node
+    //setting root node
     public void setRoot() {
         newnode = new TreeNode();
         if (root == null) {
@@ -152,8 +152,5 @@ public class MyBinarySearchTree {
 
         postOrder(node.getLeft());
         postOrder(node.getRight());
-
-
     }
-
 }

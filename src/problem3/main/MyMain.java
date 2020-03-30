@@ -11,8 +11,6 @@ public class MyMain {
             m.enqueue(newNode);
         }
         m.dequeue();
-
-
     }
 }
 

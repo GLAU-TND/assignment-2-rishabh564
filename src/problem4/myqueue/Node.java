@@ -1,5 +1,5 @@
 package problem4.myqueue;
-// to create queue to store pre - order successor
+import problem1.node.TreeNode;
 
 public class MyQueue {
 
@@ -88,7 +88,6 @@ public class MyQueue {
     }
 
     public void printSuccessor(int data) {
-
         tmp = front;
         while (tmp.getNode().getData() != data && tmp != null) {
             tmp = tmp.getNext();

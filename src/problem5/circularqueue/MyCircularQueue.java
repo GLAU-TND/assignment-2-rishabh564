@@ -1,8 +1,5 @@
 package problem5.circularqueue;
-
 import problem5.node.Node;
-
-
 
 public class MyCircularQueue {
     private Node front, tmp, end;
@@ -43,7 +40,6 @@ public class MyCircularQueue {
         }
         newNode.setNext(tmp.getNext());
         tmp.setNext(newNode);
-
     }
 
     public void printQueue() {
@@ -57,7 +53,6 @@ public class MyCircularQueue {
         } catch (NullPointerException ignored) {
         }
     }
-
 
     public void remove(String name) {
         tmp = front;
