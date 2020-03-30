@@ -1,6 +1,4 @@
 package problem4.myqueue;
-// to create queue to store pre - order successor
-
 import problem1.node.TreeNode;
 
 public class MyQueue {
@@ -15,7 +13,6 @@ public class MyQueue {
         size = 0;
     }
 
-
     public int getSize(MyQueue queue) {
         queue.tmp = queue.front;
         while (queue.tmp != null) {
@@ -29,7 +26,6 @@ public class MyQueue {
     public void setSize(int size) {
         this.size = size;
     }
-
 
     public Node getFront() {
         return front;
@@ -65,7 +61,6 @@ public class MyQueue {
         queue.tmp = queue.front;
     }
 
-
     public void enqueue(Node node) {
 
         if (front == null) {
@@ -80,6 +75,7 @@ public class MyQueue {
         }
     }
 
+
     //preorder
     public void preOrder(TreeNode node) {
         if (node == null) {
@@ -92,7 +88,6 @@ public class MyQueue {
     }
 
     public void printSuccessor(int data) {
-
         tmp = front;
         while (tmp.getNode().getData() != data && tmp != null) {
             tmp = tmp.getNext();
@@ -105,5 +100,7 @@ public class MyQueue {
         }
     }
 }
+
+
 
 
